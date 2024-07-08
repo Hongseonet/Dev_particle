@@ -1,13 +1,15 @@
 fileFormatVersion: 2
 guid: d1b932090277f37428c753cf27824d4a
 TextureImporter:
-  fileIDToRecycleName:
-    2186277476908879412: ImportLogs
+  internalIDToNameTable:
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -21,7 +23,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -30,16 +37,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapU: -1
-    wrapV: -1
-    wrapW: -1
-  nPOTScale: 1
+    filterMode: 1
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,27 +55,881 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  platformSettings: []
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SmokeLoop_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1734
+        width: 297
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63a0893bfb786458cc97870ddbfe3b
+      internalID: 1038460959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1733
+        width: 299
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a48856fd387cf64fbfad340f9015dcb
+      internalID: 573240916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_2
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1733
+        width: 302
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5724ee3ef15e03947bebf27a5978665a
+      internalID: -1964361032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_3
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1733
+        width: 303
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75f40d67e5286647abdba25c155409e
+      internalID: -657997214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_4
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1733
+        width: 304
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e37fd566d1844b4a9a8ee7c75cd9f45
+      internalID: 1792632076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_5
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1733
+        width: 307
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0578b8663ba00174c955d1eebf05dfcb
+      internalID: 793820644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1392
+        width: 309
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e727365984df54dacef41ff2e0f713
+      internalID: 2102666134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1393
+        width: 311
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac74f28088a387b4cb79f315a5351bbe
+      internalID: 1516589756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_8
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1393
+        width: 314
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab9c47a67aade46958e4df80f91b9f
+      internalID: 301878051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1393
+        width: 316
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51c52fca7832294cb9954a0c9b18cb8
+      internalID: 1856958851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_10
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1393
+        width: 318
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b156f80c3e81a834aa0a356b6b1e7c1c
+      internalID: -80732712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_11
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1393
+        width: 320
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61938baeabd46ad48afaceb883e55a17
+      internalID: -146966540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1051
+        width: 320
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d6455dac76a6443b10322a6a5a0709
+      internalID: 1206366275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_13
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1049
+        width: 312
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c5fa8526eac9f4fb6d0a32d300a9cb
+      internalID: -903020605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_14
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1047
+        width: 312
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c23f3afade6fa46b36c5f1e249ff0a
+      internalID: 1384094708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_15
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1045
+        width: 314
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98f5d46d55321946982bfd24e9459fd
+      internalID: 432943236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_16
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1043
+        width: 313
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b24a00c2304c847a3c83fe58bf2558
+      internalID: -179257050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_17
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1041
+        width: 310
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c5cbb173e0c1c469e673c33a418aec
+      internalID: 1480167293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 699
+        width: 302
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca96c34827e67489c1933b6b2518b7
+      internalID: -1391089452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_19
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 700
+        width: 293
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10b91b604b60bc4f8222dbe312a1cb7
+      internalID: 903773643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_20
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 705
+        width: 294
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ad1fd25b041d04088e3bb7e83dd9b5
+      internalID: -994302917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_21
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 705
+        width: 295
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d16b624ff280d4883dc9df4221cdcf
+      internalID: 2009789200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_22
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 705
+        width: 298
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd1356f5adb1bc469088cc0c6515bf3
+      internalID: 709988512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_23
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 707
+        width: 301
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc838968bf8d4ae488fe0184f0727a2d
+      internalID: -2030630824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 369
+        width: 305
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212fbd7c2994dda49bd34bf884b3742b
+      internalID: 208794597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_25
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 367
+        width: 308
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881d7b6918284b438476d54a7add6e0
+      internalID: -192255443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_26
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 367
+        width: 310
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbadec3dbce7a564da6155521fcc85bb
+      internalID: -353678806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_27
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 366
+        width: 312
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cab57cb990a79e409361db0bdfa9f92
+      internalID: -2115123117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_28
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 365
+        width: 308
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95b69fa12371a64c881b86975582d8f
+      internalID: -2013498378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_29
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 375
+        width: 305
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2b05251c8bd6f4fa408dbf0ba4c84c
+      internalID: 1830048283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_30
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 34
+        width: 301
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c836b25d79a88546bef364b46bfb7b4
+      internalID: -1691206393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_31
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 33
+        width: 303
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe194f7d3def99a4a90e30d126c83f65
+      internalID: 631836480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_32
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 33
+        width: 306
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9abcf9fb1de944f980d10b687e5ed9
+      internalID: 1581934653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_33
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 31
+        width: 306
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cb26cdb12f5ae44980a13367cadaa6
+      internalID: 1312700424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_34
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 29
+        width: 308
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb40d2f2d4952ca4a99147dc4e38a9b9
+      internalID: -805345649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeLoop_35
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 29
+        width: 308
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf1833b2653b054f82eaff417b7f947
+      internalID: 1575363240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      SmokeLoop_0: 1038460959
+      SmokeLoop_1: 573240916
+      SmokeLoop_10: -80732712
+      SmokeLoop_11: -146966540
+      SmokeLoop_12: 1206366275
+      SmokeLoop_13: -903020605
+      SmokeLoop_14: 1384094708
+      SmokeLoop_15: 432943236
+      SmokeLoop_16: -179257050
+      SmokeLoop_17: 1480167293
+      SmokeLoop_18: -1391089452
+      SmokeLoop_19: 903773643
+      SmokeLoop_2: -1964361032
+      SmokeLoop_20: -994302917
+      SmokeLoop_21: 2009789200
+      SmokeLoop_22: 709988512
+      SmokeLoop_23: -2030630824
+      SmokeLoop_24: 208794597
+      SmokeLoop_25: -192255443
+      SmokeLoop_26: -353678806
+      SmokeLoop_27: -2115123117
+      SmokeLoop_28: -2013498378
+      SmokeLoop_29: 1830048283
+      SmokeLoop_3: -657997214
+      SmokeLoop_30: -1691206393
+      SmokeLoop_31: 631836480
+      SmokeLoop_32: 1581934653
+      SmokeLoop_33: 1312700424
+      SmokeLoop_34: -805345649
+      SmokeLoop_35: 1575363240
+      SmokeLoop_4: 1792632076
+      SmokeLoop_5: 793820644
+      SmokeLoop_6: 2102666134
+      SmokeLoop_7: 1516589756
+      SmokeLoop_8: 301878051
+      SmokeLoop_9: 1856958851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

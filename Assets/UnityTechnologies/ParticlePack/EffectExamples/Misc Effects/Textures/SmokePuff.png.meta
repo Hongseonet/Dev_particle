@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: c3d99af7c1318074daeb72b174531db1
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -20,9 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
-    wrapU: -1
-    wrapV: -1
-    wrapW: -1
-  nPOTScale: 1
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,16 +52,22 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -68,19 +77,2880 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SmokePuff_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1821
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bebe3e8169bb148895a4f5da1137fb
+      internalID: 872976980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1821
+        width: 95
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6d6e3ae1783954c981982bad1a3f7e
+      internalID: 1233883769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_2
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1817
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae581e470fc26e4695de47bf37c4490
+      internalID: 1332325095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_3
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1813
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70d81e43aef43a47999fbbd6cd0833a
+      internalID: -934403683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_4
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1811
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091f9bc4e0c1b4d40ac15b0a9f94ba25
+      internalID: -1603957033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_5
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1810
+        width: 128
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cff24254c253c499b4f8f195ae5d79
+      internalID: 585639079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1467
+        width: 138
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1fbd9dcb7296a459152ff89a742013
+      internalID: 1164165991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1464
+        width: 147
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b424ba101cf11ed47a9ff27a28166614
+      internalID: -1598193313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_8
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1462
+        width: 158
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55582b54d9a258b4fb71756b528e07e5
+      internalID: 674983330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_9
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1457
+        width: 178
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad5b7ca0d558be4991fda3cffd4891e
+      internalID: 1828014814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_10
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1455
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38802f52b1af86f4794253e7b80ba708
+      internalID: -1344266540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_11
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 1451
+        width: 194
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d10625abe562345b97df9a4d59b3af
+      internalID: -746604584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1107
+        width: 203
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd0fccf68e53a14fbb47c790e1335d4
+      internalID: 497353651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1104
+        width: 210
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aebcfabf7bb1a4b835d6bc8700ff56
+      internalID: -808796602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_14
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1103
+        width: 217
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfa08be3be346643903b46361831324
+      internalID: 342128536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_15
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1097
+        width: 233
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a38b978e0492ab43896f0db35e3ed00
+      internalID: -97535730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_16
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1094
+        width: 233
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c327ab4351724883bef352be8c57d
+      internalID: 1209541991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_17
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1090
+        width: 239
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f141fd3b8cf344acc3392beaf9879
+      internalID: -2045442531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 743
+        width: 246
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c88a91cc9d6f640b189f09c6c323b3
+      internalID: 1907425583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 739
+        width: 254
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a57b0b6830b5446907427658a0ad9a
+      internalID: 1559721887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_20
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 734
+        width: 263
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffd4392c97dfd949926e9117492eb70
+      internalID: -1054978919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_21
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 726
+        width: 285
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6623fcdc93fa2104492585fdf7cfbfbb
+      internalID: 1465868748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_22
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 922
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fc84c2f961b3040a2490b16339e008
+      internalID: 1525836923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_23
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 935
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de23ac59ac0f914b8dc23aa6dacfc7c
+      internalID: -482802496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_24
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 719
+        width: 282
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266de3c045f4e9543b5fbb4d805a47db
+      internalID: -454181975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_25
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 720
+        width: 299
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74322888747bdc846970f5ade2f73e18
+      internalID: 221627356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_26
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 940
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122ab5a369289fc4a8e302a095a1682d
+      internalID: -1970242264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_27
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 929
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0197f6ef70738594aad672de63813781
+      internalID: 2075983227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_28
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 922
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ce7bbab7cfd94d95c79d2caa2b1c7
+      internalID: 697815903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_29
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 818
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a10da4f1172fd45b825e2220fb891e
+      internalID: -1339437527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_30
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 822
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea5ac2bb88b6d14a9c77ca6321013e7
+      internalID: 542302529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_31
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 806
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6394e1c533105cb4dba294e4d04d8c81
+      internalID: -613280759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_32
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 798
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f011ecc2375ae5e4ead7e306079ab5c5
+      internalID: 1971716918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_33
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 589
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a998f9bec82ba4f97251e000e1dcbe
+      internalID: 1572407114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 375
+        width: 303
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c75bddb7b0f8264eb183bd29e520678
+      internalID: 1795628022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_35
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 371
+        width: 308
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21caffca46c5494a9662bc94c50f97d
+      internalID: 1820852189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_36
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 370
+        width: 308
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d7a7956760cc244be02a9a72d6e27d
+      internalID: -74092127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_37
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 368
+        width: 310
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a0bff127f5a89478628a4b1d04a195
+      internalID: 1826079900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_38
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 365
+        width: 313
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e285c2060d9eec488188cfe96e7c1e9
+      internalID: -2004958713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_39
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 366
+        width: 308
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b6267af42c2948822ede79da3625f
+      internalID: -1201242795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_40
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 509
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76493402f5510d74a869d2c2d0f53f24
+      internalID: -995558261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_41
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 367
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd33752fea43744386f18dc94cb9766
+      internalID: -99897098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_42
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 378
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976aa90e7c1bbdd4db231908765ed4c0
+      internalID: 1025876604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_43
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 375
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5f450bc415d3648ba4fa362256ed2c
+      internalID: -1197380381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_44
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 378
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b3be716c4b060449b4524448fe409b
+      internalID: 673289595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_45
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 373
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33df5409f08a854459f1f61962e893e3
+      internalID: 605909103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_46
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 376
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b741c3d374f449a068d14efb66466
+      internalID: 923694931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_47
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 22
+        width: 307
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194fbaa95ea2a624f90f629f3740ee4e
+      internalID: -806756760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_48
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 23
+        width: 306
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56efa165a2926d347bd833f54abef339
+      internalID: -617279876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_49
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 27
+        width: 303
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f77eac151dd28c4fa3fc4d7cbae8cc7
+      internalID: -87873331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_50
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 29
+        width: 297
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71aa3cab9b6b1042a286b0fc944e1f8
+      internalID: 1190929668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_51
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971c2a30461185f42a65a23fc0a5345e
+      internalID: -419513681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_52
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 28
+        width: 295
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7882ce6539c14846aff9de56412b6ec
+      internalID: -1205048046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_53
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 28
+        width: 296
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef43804ddd7bd3f48abcd6fe9622f7fe
+      internalID: -794830590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_54
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 249
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3a0557a20424344885fdff8c29ee05
+      internalID: 1179738385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_55
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 243
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793737e1080aa2f45b25df0e59830afa
+      internalID: 1063221831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_56
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5eee4ed936d7940b233c33bb2a7659
+      internalID: -976146501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_57
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 199
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c1d742fe407074cbc9331a41c26b95
+      internalID: 1779173453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_58
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 181
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e896e9ca44e65047ad9eaeb75abfb82
+      internalID: -1333769221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_59
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 176
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce42fa3a3907a8144bac4ebab0ed407b
+      internalID: 1037348640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_60
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 178
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72e253e31147024489f15a59b4b696e
+      internalID: 996583240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_61
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 173
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aa79d1cc7db0f4b87db8f909abf4f8
+      internalID: 71419387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_62
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 173
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff8721d6f77bba40bf996ff11c8e26e
+      internalID: 1548537704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_63
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 66
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb6bf1610ec5a641b973a4e4a17bdb6
+      internalID: -1364947080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_64
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 65
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0092c5da7250a474080ae0fe00977b70
+      internalID: -1385646017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_65
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 61
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2656ea40200cf8a429bda63c12134f11
+      internalID: 1106659235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_66
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 53
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674380dd1a2bf584897cc67cbd64ade2
+      internalID: -922787820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_67
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 36
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae26f9117d09313488ae32ee6acbb3c7
+      internalID: 176059971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_68
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 72
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2db7814a18d8264bbf3c69bfbd77f4c
+      internalID: -1456508355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_69
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 72
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e77fd82803e0d48a75037b541da8bb
+      internalID: -1463497858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_70
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 63
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4805667b30e2ad043b8e0ca8e2c91a30
+      internalID: -587006154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_71
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 60
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806c89898c586e14cbd6b40c498076f4
+      internalID: 1781766008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_72
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e249e0482b252134d8ccbe384cc9dd34
+      internalID: -883878911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_73
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0f477b600b44f49b20755833e05ec7
+      internalID: -1577079188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_74
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 70
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29e095a67ce31942b1faf80e9eeb9d6
+      internalID: -388377131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_75
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 76
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba2579dc488e894abdb2aa63fa98a93
+      internalID: -539181540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_76
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 68
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4930f5214b8f2fe429b68196cb6447a5
+      internalID: 756423110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_77
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 71
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bebb3235f6f8eb45a775934ce9f0c59
+      internalID: 330730481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_78
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 63
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25a4c1dba50ec549902ff1463a43339
+      internalID: -859860789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_79
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 72
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d5e61ba488a494198f4b2607433950
+      internalID: 1256479578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_80
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f685c59215a95048ac8856bd18774e0
+      internalID: -1940382840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_81
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 62
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503eb11a4d7247a4cb4d87a7749f3b28
+      internalID: 1353141134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_82
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 64
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b1c78aa910c604e9977c49ecb3a81b
+      internalID: -1948943159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_83
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 55
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d495c7f747275054f82bc223a2a8225a
+      internalID: 92163284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_84
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b040191ef49c8a40a6eb62da4bcf3d0
+      internalID: 330280000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_85
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 63
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5462659a6ad738242835e8a13af303b6
+      internalID: -1842167034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_86
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 48
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c23a490201bc84ab4de505e2231430
+      internalID: 1154029945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_87
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8385eef449a99d44b6e3526ab41e855
+      internalID: -1421071847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_88
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 65
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3090b91e479b4674d99e9d7d259b4c49
+      internalID: -2097666832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_89
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 64
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c82594862ea6294a8c257b955bd908e
+      internalID: 1887990178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_90
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 65
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed00c78d1c675e46bf59a4391da416c
+      internalID: 1258095612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_91
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 55
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b64d808e139c4c9edea6436f47af5
+      internalID: -458498336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_92
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 38
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5c9f17145c02945acba0edd981fca0
+      internalID: -251060741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_93
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3675f2626ae1c0a4a8f34238b16f9fef
+      internalID: 1766195936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_94
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 54
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3bd193fd213444baeb2c1c34872f0b
+      internalID: 2147118393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_95
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 47
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff59cc0129c7fe48bbdd70bfc0ee063
+      internalID: -1007882303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_96
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ce0b2b5eda4be45b18d4fcb00b34b6
+      internalID: 759770737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_97
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23853d91952ae4646ac72954c29fb498
+      internalID: -1620328463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_98
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 59
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ceed5b46f46243b7c63493d71f5dd
+      internalID: 1087601466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_99
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 44
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7331ae339ad244a8d4c20b62aa020c
+      internalID: 1323499203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_100
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f4399b26a0ae449ba7da51456a82c1
+      internalID: -1016624091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_101
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 54
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b32eef5dbc8b449bd13bfcddcda3d
+      internalID: 1098118980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_102
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 46
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463266bf81665ef4aaa9dcdfc8ab38fd
+      internalID: -49199822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_103
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 49
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2f1a192e8fd0441bf8fb95aaa4c71a
+      internalID: -1362752846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_104
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 55
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f699bd940493d584185d634071fdd0c9
+      internalID: -1496460711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_105
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 45
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675c21a4bad8fac4fa68882b3a08990f
+      internalID: 1711250117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_106
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 42
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc86b37f174fa104386ae5e8621236a8
+      internalID: 587067975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_107
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 48
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd8300dd0a9a194f814fc1e4f9de9a1
+      internalID: 1409040486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_108
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 53
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42018f43fab51f4488894770747f7619
+      internalID: 101804044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_109
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 46
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bb4c24541b84243898ec258c78ab62
+      internalID: -1981734677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_110
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 55
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee5a48c5b246864b8235dbca317ddee
+      internalID: -1058209830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_111
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb18ac32e5e4dc4694635ca9a304eb2
+      internalID: -1172927554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_112
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38086e2195fb79459ae489bba11e55c
+      internalID: 1205886348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_113
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 52
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019b2e69b90616449770d55fe2de6f5
+      internalID: -629474811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_114
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 52
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f84426f52b2dab41b1ec46b8978da5c
+      internalID: -901129998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_115
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be02bbec6ae5143b2e0e55926abcf4
+      internalID: -930075032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_116
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 53
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48156ae6dce312c499dc25424f6ced92
+      internalID: 1941867256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_117
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7fd5cbb11ed8c458a425f59b9b7fd8
+      internalID: -1459445119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_118
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 47
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264fbcf71cf8b0c4f981f37f22aa0166
+      internalID: 1999273026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_119
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 40
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1354317dcc13284391bbd27b68be413
+      internalID: 1552197408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_120
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7d5c148561afa4a80476a52ede5e24
+      internalID: -1749768247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_121
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 40
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fd2d670e18af64f818d7f158001b2e
+      internalID: 1489961363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_122
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 40
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8825908bf5b4a6d4282b2dd745f53ca8
+      internalID: -923039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_123
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 41
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0048336fcc3ad284caede6a17c2ab33c
+      internalID: -1887011849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_124
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 44
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e566e42fcd0cc9d43b8ed499c56abbee
+      internalID: 1189189041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_125
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b33dce17da344b82b21f33f9efdf1
+      internalID: 1446021441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_126
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09f0fc430eec824da44492f8a074016
+      internalID: -919694396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePuff_127
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 37
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f050b19f15dcf04ba330f70aa9d53bf
+      internalID: 1303543987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de1aa44bc674986458edba82cb383e2b
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      SmokePuff_0: 872976980
+      SmokePuff_1: 1233883769
+      SmokePuff_10: -1344266540
+      SmokePuff_100: -1016624091
+      SmokePuff_101: 1098118980
+      SmokePuff_102: -49199822
+      SmokePuff_103: -1362752846
+      SmokePuff_104: -1496460711
+      SmokePuff_105: 1711250117
+      SmokePuff_106: 587067975
+      SmokePuff_107: 1409040486
+      SmokePuff_108: 101804044
+      SmokePuff_109: -1981734677
+      SmokePuff_11: -746604584
+      SmokePuff_110: -1058209830
+      SmokePuff_111: -1172927554
+      SmokePuff_112: 1205886348
+      SmokePuff_113: -629474811
+      SmokePuff_114: -901129998
+      SmokePuff_115: -930075032
+      SmokePuff_116: 1941867256
+      SmokePuff_117: -1459445119
+      SmokePuff_118: 1999273026
+      SmokePuff_119: 1552197408
+      SmokePuff_12: 497353651
+      SmokePuff_120: -1749768247
+      SmokePuff_121: 1489961363
+      SmokePuff_122: -923039
+      SmokePuff_123: -1887011849
+      SmokePuff_124: 1189189041
+      SmokePuff_125: 1446021441
+      SmokePuff_126: -919694396
+      SmokePuff_127: 1303543987
+      SmokePuff_13: -808796602
+      SmokePuff_14: 342128536
+      SmokePuff_15: -97535730
+      SmokePuff_16: 1209541991
+      SmokePuff_17: -2045442531
+      SmokePuff_18: 1907425583
+      SmokePuff_19: 1559721887
+      SmokePuff_2: 1332325095
+      SmokePuff_20: -1054978919
+      SmokePuff_21: 1465868748
+      SmokePuff_22: 1525836923
+      SmokePuff_23: -482802496
+      SmokePuff_24: -454181975
+      SmokePuff_25: 221627356
+      SmokePuff_26: -1970242264
+      SmokePuff_27: 2075983227
+      SmokePuff_28: 697815903
+      SmokePuff_29: -1339437527
+      SmokePuff_3: -934403683
+      SmokePuff_30: 542302529
+      SmokePuff_31: -613280759
+      SmokePuff_32: 1971716918
+      SmokePuff_33: 1572407114
+      SmokePuff_34: 1795628022
+      SmokePuff_35: 1820852189
+      SmokePuff_36: -74092127
+      SmokePuff_37: 1826079900
+      SmokePuff_38: -2004958713
+      SmokePuff_39: -1201242795
+      SmokePuff_4: -1603957033
+      SmokePuff_40: -995558261
+      SmokePuff_41: -99897098
+      SmokePuff_42: 1025876604
+      SmokePuff_43: -1197380381
+      SmokePuff_44: 673289595
+      SmokePuff_45: 605909103
+      SmokePuff_46: 923694931
+      SmokePuff_47: -806756760
+      SmokePuff_48: -617279876
+      SmokePuff_49: -87873331
+      SmokePuff_5: 585639079
+      SmokePuff_50: 1190929668
+      SmokePuff_51: -419513681
+      SmokePuff_52: -1205048046
+      SmokePuff_53: -794830590
+      SmokePuff_54: 1179738385
+      SmokePuff_55: 1063221831
+      SmokePuff_56: -976146501
+      SmokePuff_57: 1779173453
+      SmokePuff_58: -1333769221
+      SmokePuff_59: 1037348640
+      SmokePuff_6: 1164165991
+      SmokePuff_60: 996583240
+      SmokePuff_61: 71419387
+      SmokePuff_62: 1548537704
+      SmokePuff_63: -1364947080
+      SmokePuff_64: -1385646017
+      SmokePuff_65: 1106659235
+      SmokePuff_66: -922787820
+      SmokePuff_67: 176059971
+      SmokePuff_68: -1456508355
+      SmokePuff_69: -1463497858
+      SmokePuff_7: -1598193313
+      SmokePuff_70: -587006154
+      SmokePuff_71: 1781766008
+      SmokePuff_72: -883878911
+      SmokePuff_73: -1577079188
+      SmokePuff_74: -388377131
+      SmokePuff_75: -539181540
+      SmokePuff_76: 756423110
+      SmokePuff_77: 330730481
+      SmokePuff_78: -859860789
+      SmokePuff_79: 1256479578
+      SmokePuff_8: 674983330
+      SmokePuff_80: -1940382840
+      SmokePuff_81: 1353141134
+      SmokePuff_82: -1948943159
+      SmokePuff_83: 92163284
+      SmokePuff_84: 330280000
+      SmokePuff_85: -1842167034
+      SmokePuff_86: 1154029945
+      SmokePuff_87: -1421071847
+      SmokePuff_88: -2097666832
+      SmokePuff_89: 1887990178
+      SmokePuff_9: 1828014814
+      SmokePuff_90: 1258095612
+      SmokePuff_91: -458498336
+      SmokePuff_92: -251060741
+      SmokePuff_93: 1766195936
+      SmokePuff_94: 2147118393
+      SmokePuff_95: -1007882303
+      SmokePuff_96: 759770737
+      SmokePuff_97: -1620328463
+      SmokePuff_98: 1087601466
+      SmokePuff_99: 1323499203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

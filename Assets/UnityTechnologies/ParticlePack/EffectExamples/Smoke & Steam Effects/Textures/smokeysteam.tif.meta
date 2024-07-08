@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 76e25da1cefc7f446bcc43a70fb13a0f
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -20,7 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -29,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapU: -1
-    wrapV: -1
-    wrapW: -1
-  nPOTScale: 1
+    filterMode: 1
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -47,16 +52,22 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -66,19 +77,1472 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: smokeysteam_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1798
+        width: 221
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4d145a189f8a408218b8dfc4bef36
+      internalID: -1901480349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1798
+        width: 222
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df59e0712472474b933ae8f7ff37855
+      internalID: -282853288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1797
+        width: 225
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b83d66c084060648944b45e04e9c5e8
+      internalID: -1000975829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1797
+        width: 226
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcfb4c7543da964ea07923c0258817a
+      internalID: 1103237762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_4
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1797
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bac65a464905843ba3a55ae21a932c
+      internalID: 308032620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_5
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1798
+        width: 229
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacd3bdeded41ad4cbfac4111e9cdb57
+      internalID: 649181062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_6
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1799
+        width: 228
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03f854727b28747a9db8073c556c9d
+      internalID: -1179678949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_7
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1799
+        width: 227
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8803413b4d1fdad42b63e30fe1ecf4f3
+      internalID: -1763389768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1543
+        width: 227
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba1b17ea21146a44bd86194c442fb29
+      internalID: -1608322782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1544
+        width: 225
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38a0d5920375ea42ae4d0190ea877c6
+      internalID: 1128427827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1546
+        width: 224
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e694c04796143408e1baca76d66092
+      internalID: -1855971925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1550
+        width: 226
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23221d9a195fc3f41895755a497359df
+      internalID: 1397130322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_12
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1549
+        width: 228
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a5a75471c85c47b393dc22663fe4e
+      internalID: -827122948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_13
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1547
+        width: 229
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b6a92e9d70165488e10392eea37396
+      internalID: 1796022800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_14
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1546
+        width: 230
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa27e8240d95574ead907034ae97e2d
+      internalID: 408230876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_15
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1547
+        width: 232
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b44bc142f9ab9441bb474c44e89f8f0
+      internalID: -1377289420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1292
+        width: 233
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8358925bb3d59ff41a4edfb38c8db5ff
+      internalID: 1081169830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_17
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1294
+        width: 234
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c1782c8d6169e48a59784f335d2d9d
+      internalID: -1441213454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_18
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1294
+        width: 234
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951102cf899754d4699218e25b1a6d03
+      internalID: -1538284778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_19
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1293
+        width: 231
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bca525b86bb2144b9e8073dcba9bc5
+      internalID: -1847905678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_20
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1293
+        width: 227
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f136cc60482ea149b7e9fc8be96a85c
+      internalID: -1653678709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_21
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1292
+        width: 226
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328f46295cc920f49b57787e439923bc
+      internalID: -544170637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_22
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1292
+        width: 226
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed037b3fe96e0ef438e1bfd4782d7b9f
+      internalID: 705552952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_23
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1292
+        width: 226
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cbdb43a23ddcf4693b2bc77aa1731f
+      internalID: -545063532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1036
+        width: 228
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a2f6c4559453a4d94c186b85641872
+      internalID: -1344164641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1037
+        width: 229
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba633c1e7d58a564da496974d4590c86
+      internalID: 580115836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1042
+        width: 230
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe5b8746d779242834c19c376581e9
+      internalID: -700117026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_27
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1042
+        width: 229
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8747a27126e1131459769fc1698829a3
+      internalID: 2069437549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_28
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1041
+        width: 228
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b2abb39f4241d44851a6b5744aeda9
+      internalID: 1916922079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_29
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1040
+        width: 228
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d64a1a2840b3c4290a3204a9077932
+      internalID: -1644856866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_30
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1038
+        width: 230
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5031bf27f75d5a48bcfb96ca0d457c3
+      internalID: -993406022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_31
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1038
+        width: 233
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec715fdccae5f647887d56c5d7079d2
+      internalID: 358146433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 781
+        width: 236
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3fdc29be5e33a4d821bbb0d8bd4118
+      internalID: -1435193955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 779
+        width: 237
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178bedb3d8910e44e9240aa1308c6ed6
+      internalID: -824793451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_34
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 778
+        width: 238
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e3823119dd084d80ba411ec6de066
+      internalID: -185315337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_35
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 775
+        width: 239
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3215b802e51b6664f9318be9ebdfd4a6
+      internalID: -1058775252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_36
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 773
+        width: 238
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1404e2b564ca5534c816242d77e8f416
+      internalID: 212813008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_37
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 771
+        width: 235
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a37c8d601a5647aabd3b5f52877e1
+      internalID: -233860477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_38
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 770
+        width: 233
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9696c6336d62f47a843633f1750876
+      internalID: -184154657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_39
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 770
+        width: 233
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa96a5d5840f8c4aaa02ec2c5b405cf
+      internalID: -2093350554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 514
+        width: 233
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c699510af9066249b16951a0e95e7de
+      internalID: 1981287342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 513
+        width: 235
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798df65af2a542141b07defa33930008
+      internalID: 1457921394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_42
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 513
+        width: 237
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf238f3abec20434a9edd85b7bd9a1af
+      internalID: 522217306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_43
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 513
+        width: 240
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318b968781e6314da23933722802ec1
+      internalID: -384423670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_44
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 513
+        width: 241
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea3e7a7c47dd046a63a4b27c6ed205
+      internalID: 1869192944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_45
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 514
+        width: 243
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c53bcfde5c0ad4aa5055a51044df63
+      internalID: 646314504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_46
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 515
+        width: 246
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7e1da91fdc12d469e655096bb50ab0
+      internalID: -1903712357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_47
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 518
+        width: 249
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30804e5ddb55f547b8ff23f18425a5a
+      internalID: -1813240536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 263
+        width: 251
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b9bb46a159f8488ee1ba92b0b8cf6
+      internalID: 48868142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_49
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 263
+        width: 252
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bd0c840e8da1d42affb4be5005f354
+      internalID: 1965029755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_50
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 263
+        width: 253
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e13a756856cae4a8126699c9cc6f99
+      internalID: 2019764440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_51
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 263
+        width: 253
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d69f45a89e6708419c31f3b79182493
+      internalID: 670081287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_52
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 263
+        width: 252
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d58089962896e4eb77752d0b585693
+      internalID: 683411759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_53
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 263
+        width: 246
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c107072cef5e21f48bc7af3308f841d4
+      internalID: 1345300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_54
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 263
+        width: 242
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d634831b0c5f08043867ef529c9a5936
+      internalID: -280985481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_55
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 263
+        width: 242
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5629e7b38a5995488a986eecfb46f08
+      internalID: -316821564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 240
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9bdc57f2ac9054da484ad935649ac1
+      internalID: 398903781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_57
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 8
+        width: 241
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e49db4d39f8f1468e0a8819f4d93bf
+      internalID: -592347291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_58
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 9
+        width: 241
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29dd76b46a8e934e8883d107a1f6ba3
+      internalID: 676059452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_59
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 13
+        width: 240
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35f16567f14445428fd0aab811fb820
+      internalID: 2096767233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_60
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 17
+        width: 241
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4f7e4ab50429c47bc61e3a449e03da
+      internalID: -356899084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_61
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 18
+        width: 243
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4056758da40ff884390f433611c392a7
+      internalID: -2112127520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_62
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 18
+        width: 244
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1600f0dd1027974ba3873f10ebd134c
+      internalID: -1385109378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeysteam_63
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 17
+        width: 245
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df7afc90e9bf6c48b816ad4277d03fa
+      internalID: -2092995724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      smokeysteam_0: -1901480349
+      smokeysteam_1: -282853288
+      smokeysteam_10: -1855971925
+      smokeysteam_11: 1397130322
+      smokeysteam_12: -827122948
+      smokeysteam_13: 1796022800
+      smokeysteam_14: 408230876
+      smokeysteam_15: -1377289420
+      smokeysteam_16: 1081169830
+      smokeysteam_17: -1441213454
+      smokeysteam_18: -1538284778
+      smokeysteam_19: -1847905678
+      smokeysteam_2: -1000975829
+      smokeysteam_20: -1653678709
+      smokeysteam_21: -544170637
+      smokeysteam_22: 705552952
+      smokeysteam_23: -545063532
+      smokeysteam_24: -1344164641
+      smokeysteam_25: 580115836
+      smokeysteam_26: -700117026
+      smokeysteam_27: 2069437549
+      smokeysteam_28: 1916922079
+      smokeysteam_29: -1644856866
+      smokeysteam_3: 1103237762
+      smokeysteam_30: -993406022
+      smokeysteam_31: 358146433
+      smokeysteam_32: -1435193955
+      smokeysteam_33: -824793451
+      smokeysteam_34: -185315337
+      smokeysteam_35: -1058775252
+      smokeysteam_36: 212813008
+      smokeysteam_37: -233860477
+      smokeysteam_38: -184154657
+      smokeysteam_39: -2093350554
+      smokeysteam_4: 308032620
+      smokeysteam_40: 1981287342
+      smokeysteam_41: 1457921394
+      smokeysteam_42: 522217306
+      smokeysteam_43: -384423670
+      smokeysteam_44: 1869192944
+      smokeysteam_45: 646314504
+      smokeysteam_46: -1903712357
+      smokeysteam_47: -1813240536
+      smokeysteam_48: 48868142
+      smokeysteam_49: 1965029755
+      smokeysteam_5: 649181062
+      smokeysteam_50: 2019764440
+      smokeysteam_51: 670081287
+      smokeysteam_52: 683411759
+      smokeysteam_53: 1345300010
+      smokeysteam_54: -280985481
+      smokeysteam_55: -316821564
+      smokeysteam_56: 398903781
+      smokeysteam_57: -592347291
+      smokeysteam_58: 676059452
+      smokeysteam_59: 2096767233
+      smokeysteam_6: -1179678949
+      smokeysteam_60: -356899084
+      smokeysteam_61: -2112127520
+      smokeysteam_62: -1385109378
+      smokeysteam_63: -2092995724
+      smokeysteam_7: -1763389768
+      smokeysteam_8: -1608322782
+      smokeysteam_9: 1128427827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
